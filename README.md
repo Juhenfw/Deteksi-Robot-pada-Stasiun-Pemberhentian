@@ -22,6 +22,6 @@ The system detects robots moving through different station checkpoints, verifies
 ## Installation
 Clone this repository to your local machine using the following command:
 ```bash
-git clone https://github.com/username/Station-Based-Robot-Tracking.git
-cd Station-Based-Robot-Tracking
+git clone https://github.com/Juhenfw/Deteksi-Robot-pada-Stasiun-Pemberhentian.git
+cd Deteksi-Robot-pada-Stasiun-Pemberhentian
 ```
