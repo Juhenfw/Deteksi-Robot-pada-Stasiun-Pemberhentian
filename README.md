@@ -1,26 +1,26 @@
-# Station-Based Robot Tracking
+# Pelacakan Robot Berbasis Stasiun
 
-## Description
-**Station-Based Robot Tracking** is a system designed to detect and track **Pudu** robot locations across various **stations** and record the data into a **database** for further monitoring. The system uses **YOLO** for real-time object detection and utilizes a **MySQL database** to store data and logs of robot movements.
+## Deskripsi
+**Pelacakan Robot Berbasis Stasiun** adalah sistem yang dirancang untuk mendeteksi dan melacak lokasi **robot Pudu** di berbagai **stasiun** dan merekam data tersebut ke dalam **database** untuk pemantauan lebih lanjut. Sistem ini menggunakan **YOLO** untuk deteksi objek secara real-time dan memanfaatkan **database MySQL** untuk menyimpan data dan log pergerakan robot.
 
-The system detects robots moving through different station checkpoints, verifies if the robot is in the designated area, and records the **entry/exit** status of the robot at each checkpoint. All data is stored in a **MySQL database**, allowing for continuous monitoring and analysis of robot movements.
+Sistem ini mendeteksi robot yang bergerak melalui berbagai checkpoint stasiun, memverifikasi apakah robot berada di area yang ditentukan, dan merekam status **masuk/keluar** robot di setiap checkpoint. Semua data disimpan dalam **database MySQL**, memungkinkan pemantauan dan analisis pergerakan robot secara terus-menerus.
 
-## Features
-- **Real-Time Tracking**: Detects **Pudu** robots in multiple **stations** in real-time using YOLO.
-- **Data Storage**: Records robot movement information in a **MySQL database** for further monitoring.
-- **Multithreading**: Processes video frames, object detection, and data storage simultaneously.
-- **Data Cleanup**: Automatically deletes outdated data to prevent memory leaks.
-- **Database Connection Management**: Utilizes MySQL connection pooling for efficient database operations.
+## Fitur
+- **Pelacakan Real-Time**: Mendeteksi robot **Pudu** di beberapa **stasiun** secara real-time menggunakan YOLO.
+- **Penyimpanan Data**: Merekam informasi pergerakan robot ke dalam **database MySQL** untuk pemantauan lebih lanjut.
+- **Multithreading**: Memproses frame video, deteksi objek, dan penyimpanan data secara bersamaan.
+- **Pembersihan Data**: Secara otomatis menghapus data yang sudah kadaluarsa untuk mencegah kebocoran memori.
+- **Manajemen Koneksi Database**: Memanfaatkan pooling koneksi MySQL untuk operasi database yang efisien.
 
-## Technologies Used
-- **YOLOv8**: Used for real-time object detection of robots in video streams.
-- **OpenCV**: Used for image processing and video frame display.
-- **MySQL**: Used for data storage and recording robot movements.
-- **Python**: The main programming language for developing the system.
-- **Threading**: Allows parallel processing of video frames and database interactions.
+## Teknologi yang Digunakan
+- **YOLOv8**: Digunakan untuk deteksi objek robot secara real-time dalam aliran video.
+- **OpenCV**: Digunakan untuk pemrosesan citra dan tampilan frame video.
+- **MySQL**: Digunakan untuk penyimpanan data dan pencatatan pergerakan robot.
+- **Python**: Bahasa pemrograman utama yang digunakan untuk mengembangkan sistem ini.
+- **Threading**: Memungkinkan pemrosesan paralel untuk frame video dan interaksi dengan database.
 
-## Installation
-Clone this repository to your local machine using the following command:
+## Instalasi
+Clone repository ini ke mesin lokal Anda dengan perintah berikut:
 ```bash
 git clone https://github.com/Juhenfw/Deteksi-Robot-pada-Stasiun-Pemberhentian.git
 cd Deteksi-Robot-pada-Stasiun-Pemberhentian
