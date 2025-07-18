@@ -13,7 +13,7 @@ Sistem ini mendeteksi robot yang bergerak melalui berbagai checkpoint stasiun, m
 - **Manajemen Koneksi Database**: Memanfaatkan pooling koneksi MySQL untuk operasi database yang efisien.
 
 ## Teknologi yang Digunakan
-- **YOLOv8**: Digunakan untuk deteksi objek robot secara real-time dalam aliran video.
+- **YOLOv11**: Digunakan untuk deteksi objek robot secara real-time dalam aliran video.
 - **OpenCV**: Digunakan untuk pemrosesan citra dan tampilan frame video.
 - **MySQL**: Digunakan untuk penyimpanan data dan pencatatan pergerakan robot.
 - **Python**: Bahasa pemrograman utama yang digunakan untuk mengembangkan sistem ini.
